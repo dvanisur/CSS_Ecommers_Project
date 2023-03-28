@@ -34,6 +34,11 @@ img{
     justify-content: space-around;
     align-items: center;
 }
+.flex_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .btn{
     border: none;
     padding: var(--padding);
@@ -44,6 +49,7 @@ img{
 .btn:hover{
     background: var(--font-color);
 }
+
 
 /* reset code and common code ends here */
 
@@ -106,6 +112,44 @@ img{
     font-size: 2rem;
 }
 /* Nav_bar Ends here */
+/* Header Starts here */
+.header{
+    padding: 4rem 0;
+    height: 60vh;
+    background-image: url(/image/pexels-karolina-grabowska-5632407.jpg)  ;
+    opacity: 0.6;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.banner_title{
+    font-size: 4rem;
+    color: blue;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+}
+.features{
+    width: 100%;
+}
+.feature{
+    background-color: blue;
+    color: white;
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    width: 15rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+.feature_icon{
+    font-size: 3rem;
+}
+/* Header Ends here */
+
 
 /* footer_bar starts here */
 footer{
@@ -141,6 +185,9 @@ footer{
      }
      .hidden{
         /* display: none; */
+     }
+     .header{
+        height: 100vh;
      }
     
 }
