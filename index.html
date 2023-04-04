@@ -80,10 +80,97 @@
 
     <!-- header Ends here -->
 
+     <!-- Maincontain_bar starts here -->
 
-
-    <main>
-        <h1>loging Page</h1>
+    <main class="flex_center summary ">
+        <aside class="left_summary">
+            <div class="item_summary flex_start">
+                <h1>Categories</h1>
+                <label for="Telephone">
+                    <input type="checkbox"> Telephones
+                </label>
+                <label for="Tablets">
+                    <input type="checkbox"> Tablets
+                </label>
+                <label for="Televisions">
+                    <input type="checkbox"> Televisions
+                </label>
+                <label for="Computers">
+                    <input type="checkbox"> Computers
+                </label>
+                <label for="Headphone">
+                    <input type="checkbox"> Headphone
+                </label>
+                <label for="Smart home">
+                    <input type="checkbox"> Smart home
+                </label>
+            </div>
+            <div class="price_summary flex_start">
+                <h1>Price Range</h1>
+                <label for="$0-$20">
+                    <input type="radio"> $0-$20
+                </label>
+                <label for="$21-$30">
+                    <input type="radio"> $21-$30
+                </label>
+                <label for="$31-$40">
+                    <input type="radio"> $31-$40
+                </label>
+                <label for="$210-$300">
+                    <input type="radio"> $210-$300
+                </label>
+                <label for="$3100-$40000">
+                    <input type="radio"> $31000-$400000
+                </label>
+                
+            </div>
+            <div class="payment_summary flex_start">
+                <h1>Shopping Options</h1>
+                <label for="Free Shopping">
+                    <input type="radio"> Free Shopping
+                </label>
+                <label for="paid Shopping">
+                    <input type="radio"> paid Shopping
+                </label>
+            </div>
+            
+        </aside>
+        <div class="right_summary">
+            <section class="actions flex_space_around">
+                <div class="actions_sort">
+                    <label for="sort">Sort By:</label>
+                    <select name="sort" id="sort">
+                        <option value="sold">Most sold first</option>
+                        <option value="rating">Most rated first</option>
+                        <option value="price">Cheapest first</option>
+                        <option value="arrival">Newest first</option>
+                        <option value="Discount">Discount first</option>
+                    </select>
+                </div>
+                <div class="actons_search">
+                    <input type="text" placeholder="Search Product">
+                    <button class="btn"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </section>
+            <!-- Product secttion starts -->
+            <div class="products">
+                <article class="fa-product-hunt">
+                 <div class="badge">
+                    <span> 2 in stock</span>
+                    <hr class="hr_design">
+                    <span> 100 in sold</span>
+                 </div>
+                 <img src="/image/Problem_Solving-hero-600x800.png"  alt="Product1"> 
+                  <div class="product_body">
+                    <h3 class="product_name">Python with Django</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quisquam.
+                        ...link
+                    </p>
+                  </div> 
+                </article>
+            </div>
+             <!-- Product secttion Ends -->
+        </div>
         
 
     </main>
@@ -92,9 +179,9 @@
 
 
 
-
-    <!-- Nav_bar starts here -->
-    <footer class="flex_space_around">
+    <!-- Maincontain_bar Ends here -->
+    <!-- footer_bar starts here -->
+    <footer class="flex_space_around footer_desgin">
         <div >
             <label for="subscribe">Subscrib to Newsletter : </label>
             <input type="email" name="subscribe" id="subscribe" class="footer_input" placeholder="Your Email Address">
@@ -104,7 +191,7 @@
             <p>&copy; Copyright 2023, Anis Experace.All right reseved</p>
         </div>
     </footer>
-    <!-- Nav_bar Ends here -->
+    <!-- footer_bar Ends here -->
     <script src="/scripts/index.js"></script>
     
 </body>

@@ -39,6 +39,11 @@ img{
     justify-content: center;
     align-items: center;
 }
+.flex_start{
+    display: flex;
+    justify-content: flex-start;
+    
+}
 .btn{
     border: none;
     padding: var(--padding);
@@ -150,6 +155,26 @@ img{
 }
 /* Header Ends here */
 
+/* Maincontain_bar starts here */
+.summary{
+    margin: 5vh 0;
+}
+.left_summary{
+    flex: 1;
+}
+.right_summary{
+    flex: 3;
+}
+.item_summary , .price_summary, .payment_summary{
+    flex-direction: column;
+    margin-top: 2vh;
+    
+}
+
+
+
+/* Maincontain_bar Ends here */
+
 
 /* footer_bar starts here */
 footer{
@@ -159,6 +184,7 @@ footer{
     color: white;
     font-size: 1.1rem;
 }
+
 .btn_subscribe{
     margin-left: -5px;
 }
@@ -168,6 +194,22 @@ footer{
     width: 20rem;
 }
 
+.actions_sort select{
+    padding: var(--padding);
+}
+.actions_sort select{
+    padding: var(--padding);
+    width: 15rem;
+}
+.actons_search input{
+    padding: var(--padding);
+    width: 15rem;
+}
+.actons_search button{
+    margin-left: -0.3rem;
+    border: 1px solid;
+    padding: 0.5rem;
+}
 /* footer_bar Ends here */
 
 @media (max-width: 992px) {
