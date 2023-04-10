@@ -260,8 +260,8 @@ footer{
     margin: 5vh;
 }
 
-
 /* Register from starts here */
+
 .register{
     padding: 10vh 0;
 }
@@ -304,12 +304,33 @@ footer{
 }
 /*Register from Ends here */
 
+/* Loging from starts here */
+.btn_loging{
+    width: 100%;
+    margin: 30px 0;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 600px;
+    border-radius: 20px;
+    background: rgb(43, 181, 181);
+}
+.forget_password{
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: rgb(182, 176, 172);
+}
+.register_from a{
+    font-size: 1.5rem;
+    color: rgb(228, 224, 224);
+}
+/*loging from Ends here */
 
 @media (max-width: 992px) {
     .flex_space_around{
         flex-direction: column;
         gap: 1rem;
         padding: 1rem 0;
+       
 
     }
     #menu_icon{
