@@ -37,7 +37,7 @@ img{
 .flex_center{
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 }
 .flex_start{
     display: flex;
@@ -168,12 +168,18 @@ img{
 /* Maincontain_bar starts here */
 .summary{
     margin: 5vh 0;
+    
+   
 }
 .left_summary{
-    flex: 1;
+    flex: .5;
+    padding-left: 2vw;
+    
+    
 }
 .right_summary{
-    flex: 3;
+    flex: 3.5;
+    
 }
 .item_summary , .price_summary, .payment_summary{
     flex-direction: column;
@@ -253,6 +259,51 @@ footer{
 .product_page_summary{
     margin: 5vh;
 }
+
+
+/* Register from starts here */
+.register{
+    padding: 10vh 0;
+}
+.register_from{
+    flex-direction: column;
+    gap: 10px;
+    background: grey;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    
+}
+.register_from_titale{
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(29, 35, 35);
+    font-size: 2rem;
+}
+.register_from label{
+    font-size: 1.5rem; 
+}
+.register_from input{
+    width: 30vw;
+    height: 4vh; 
+    padding: 20px;
+    font-size: 1.2rem;
+    color: gray;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn_submit{
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-left: 8VW;
+    margin-top: 50px;
+}
+/*Register from Ends here */
+
 
 @media (max-width: 992px) {
     .flex_space_around{
